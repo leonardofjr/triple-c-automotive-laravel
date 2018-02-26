@@ -1,1 +1,315 @@
-a,a:hover,footer{color:#fff}.featured-content img,.map iframe,.special-offers-container img{width:100%}.main-btn,a:hover{text-decoration:none}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}h1,p{padding:1rem!important}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{font-family:Roboto,serif,"Open Sans";color:#000}p{letter-spacing:1px;font-weight:300;word-spacing:1.3px;line-height:24px}h1{font-size:2.5em}h2{font-size:2em;padding:.4rem}h3{font-size:1.8em;padding:.2rem!important}h4{font-size:1.6em;padding:1rem 0!important}header .main-heading{font-weight:100;font-size:3em}header .main-heading span{font-weight:900}body,html{overflow-y:scroll;overflow-x:hidden}.about-content .img-container{height:232px}.special-offers-container .img-container{position:relative}.special-offers-container .content{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.mobile-navigation ul{background:0 0}nav ul{height:80px;background:#aebcbf;background:linear-gradient(to bottom,#aebcbf 0,#6e7774 50%,#0a0e0a 51%,#0a0809 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809', GradientType=0 );list-style:none}footer{background:#333}.site-info{background:#000;color:#888}.btn{border:none;color:#fff;overflow:hidden;margin:1rem;padding:0;text-transform:uppercase;width:200px;height:40px}.btn.button-3{background-color:#ffcd06}.btn.button-4{background-color:#e94043}.services-content img{width:50px;animation:bounce 2s infinite;-webkit-animation:bounce 2s infinite;-moz-animation:bounce 2s infinite;-o-animation:bounce 2s infinite}.services-content ul{line-height:1.7em}@keyframes bounce{0%,100%,20%,50%,80%{transform:translateY(0)}40%{transform:translateY(-30px)}60%{transform:translateY(-15px)}}.main-btn{box-shadow:#fce2c1 0 1px 0 0 inset;background:linear-gradient(#ffc477 5%,#fad725 100%) #ffc477;border-radius:6px;border:1px solid #eeb44f;display:inline-block;cursor:pointer;color:#fff;font-family:Arial;font-size:15px;font-weight:700;padding:9px 24px;text-shadow:#cc9f52 0 1px 0;width:70%}form button{background:#fff;border:2px solid #fff;font:inherit;line-height:1;margin:.5em;padding:1em 2em}form button:focus,form button:hover{transition:.25s;box-shadow:inset 0 0 0 2em #ffcd06;border-color:#ffcd06;color:#000}.special-offers-container .coupon-box-1{background-color:#888;color:#fff}.special-offers-container .coupon-box-2{background-color:#aaa;color:#fff}@media (max-width:575px){header .container{margin-top:82px}}
+/**
+  * CH01 - Resets
+  * CH02 - Typography
+  * CH03 - Page Structure
+  * CH04 - Header & Navigation
+  * CH05 - Content & Media
+  * CH06 - Footer
+  * CH07 - Miscellaneous
+**/
+/******* CH01 - Resets *******/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/******* CH02 - Typography *******/
+body {
+  font-family: "Roboto", serif, "Open Sans";
+  color: black;
+}
+
+p {
+  letter-spacing: 1px;
+  font-weight: 300;
+  word-spacing: 1.3px;
+  line-height: 24px;
+  padding: 1rem !important;
+}
+
+h1 {
+  font-size: 2.50em;
+  padding: 1rem !important;
+}
+
+h2 {
+  font-size: 2em;
+  padding: .4rem;
+}
+
+h3 {
+  font-size: 1.8em;
+  padding: 0.2rem !important;
+}
+
+h4 {
+  font-size: 1.6em;
+  padding: 1rem 0 !important;
+}
+
+header .main-heading {
+  font-weight: 100;
+  font-size: 3em;
+}
+
+header .main-heading span {
+  font-weight: 900;
+}
+
+/******* CH03 - Page Structure *******/
+body, html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.about-content .img-container {
+  height: 232px;
+}
+
+.special-offers-container img {
+  width: 100%;
+}
+
+.special-offers-container .img-container {
+  position: relative;
+}
+
+.special-offers-container .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.map iframe {
+  width: 100%;
+}
+
+/******* CH04 - Header & Navigation *******/
+.mobile-navigation ul {
+  background: none;
+}
+
+nav ul {
+  height: 80px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aebcbf+0,6e7774+50,0a0e0a+51,0a0809+100;Black+Gloss */
+  background: #aebcbf;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #aebcbf 0%, #6e7774 50%, #0a0e0a 51%, #0a0809 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 );
+  /* IE6-9 */
+  list-style: none;
+}
+
+/******* CH05 - Content & Media *******/
+/******* CH06 - Footer *******/
+footer {
+  background: #333;
+  color: #fff;
+}
+
+.site-info {
+  background: #000;
+  color: #888;
+}
+
+/******* CH07 - Miscellaneous *******/
+.featured-content img {
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  color: white;
+  overflow: hidden;
+  margin: 1rem;
+  padding: 0;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+}
+
+.btn.button-3 {
+  background-color: #ffcd06;
+}
+
+.btn.button-4 {
+  background-color: #e94043;
+}
+
+.services-content img {
+  width: 50px;
+}
+
+.services-content ul {
+  line-height: 1.7em;
+}
+
+.services-content img {
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.main-btn {
+  box-shadow: #fce2c1 0px 1px 0px 0px inset;
+  background: linear-gradient(#ffc477 5%, #fad725 100%) #ffc477;
+  border-radius: 6px;
+  border: 1px solid #eeb44f;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 9px 24px;
+  text-decoration: none;
+  text-shadow: #cc9f52 0px 1px 0px;
+  width: 70%;
+}
+
+form button {
+  background: white;
+  border: 2px solid white;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+form button:hover, form button:focus {
+  transition: 0.25s;
+  box-shadow: inset 0 0 0 2em #ffcd06;
+  border-color: #ffcd06;
+  color: black;
+}
+
+.special-offers-container .coupon-box-1 {
+  background-color: #888;
+  color: white;
+}
+
+.special-offers-container .coupon-box-2 {
+  background-color: #aaa;
+  color: white;
+}
+
+/**
+  * CH01 - Resets
+  * CH02 - Typography
+  * CH03 - Page Structure
+  * CH04 - Header & Navigation
+  * CH05 - Content & Media
+  * CH06 - Footer
+  * CH07 - Miscellaneous
+**/
+/******* CH01 - Resets *******/
+/******* CH02 - Typography *******/
+/******* CH03 - Page Structure *******/
+/******* CH04 - Header & Navigation *******/
+/******* CH05 - Content & Media *******/
+/******* CH06 - Footer *******/
+/******* CH07 - Miscellaneous *******/
+/**
+  * CH01 - Resets
+  * CH02 - Typography
+  * CH03 - Page Structure
+  * CH04 - Header & Navigation
+  * CH05 - Content & Media
+  * CH06 - Footer
+  * CH07 - Miscellaneous
+**/
+/******* CH01 - Resets *******/
+/******* CH02 - Typography *******/
+/******* CH03 - Page Structure *******/
+/******* CH04 - Header & Navigation *******/
+/******* CH05 - Content & Media *******/
+/******* CH06 - Footer *******/
+/******* CH07 - Miscellaneous *******/
+/**
+  * CH01 - Resets
+  * CH02 - Typography
+  * CH03 - Page Structure
+  * CH04 - Header & Navigation
+  * CH05 - Content & Media
+  * CH06 - Footer
+  * CH07 - Miscellaneous
+**/
+/******* CH01 - Resets *******/
+/******* CH02 - Typography *******/
+/******* CH03 - Page Structure *******/
+/******* CH04 - Header & Navigation *******/
+/******* CH05 - Content & Media *******/
+/******* CH06 - Footer *******/
+/******* CH07 - Miscellaneous *******/
+/**
+  * CH01 - Resets
+  * CH02 - Typography
+  * CH03 - Page Structure
+  * CH04 - Header & Navigation
+  * CH05 - Content & Media
+  * CH06 - Footer
+  * CH07 - Miscellaneous
+**/
+/******* CH01 - Resets *******/
+/******* CH02 - Typography *******/
+/******* CH03 - Page Structure *******/
+@media (max-width: 575px) {
+  header .container {
+    margin-top: 82px;
+  }
+}
+
+/******* CH04 - Header & Navigation *******/
+/******* CH05 - Content & Media *******/
+/******* CH06 - Footer *******/
+/******* CH07 - Miscellaneous *******/
+
+/*# sourceMappingURL=app.css.map */

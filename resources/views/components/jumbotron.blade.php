@@ -34,13 +34,3 @@
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-lg-6 coupon-box-1 py-5 pl-5">
-    <h1>SAVE $30 ON BRAKES & BRAKE REPAIR</h1><a href="coupon-1.pdf" download="download">
-      <button class="btn button-4">Download Coupon</button></a>
-  </div>
-  <div class="col-lg-6 coupon-box-2 py-5 pr-5">
-    <h1>$80 OFF ON ANNUAL VEHICLE INSPECTION</h1>
-    <button class="btn button-4">Download Coupon</button>
-  </div>
-</div>
